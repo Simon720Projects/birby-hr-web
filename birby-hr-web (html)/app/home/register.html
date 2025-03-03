@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body class="h-screen bg-gradient-to-t from-blue-900 to-blue-500">
+    <section>
+      <div
+        class="min-h-screen flex flex-col justify-center items-center py-6 px-4 drop-shadow-lg"
+      >
+        <div class="min-w-md w-3/12">
+          <div class="p-8 rounded-2xl bg-white shadow">
+            <h2 class="text-gray-900 text-center text-2xl font-bold">
+              Create an account
+            </h2>
+            <form class="mt-8 space-y-4">
+              <div>
+                <label class="text-gray-900 text-sm mb-2 block"
+                  >User name</label
+                >
+                <div class="relative flex items-center">
+                  <input
+                    name="username"
+                    type="text"
+                    required
+                    class="w-full text-gray-900 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
+                    placeholder="Enter user name"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label for="email" class="text-gray-900 text-sm mb-2 block"
+                  >Email</label
+                >
+                <div class="relative flex items-center">
+                  <input
+                    name="email"
+                    id="email"
+                    type="text"
+                    required
+                    class="w-full text-gray-900 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
+                    placeholder="Enter email"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label for="password" class="text-gray-900 text-sm mb-2 block"
+                  >Password</label
+                >
+                <div class="relative flex items-center">
+                  <input
+                    name="password"
+                    type="password"
+                    id="password"
+                    required
+                    class="w-full text-gray-900 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
+                    placeholder="Enter password"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label for="password" class="text-gray-900 text-sm mb-2 block"
+                  >Confirm password</label
+                >
+                <div class="relative flex items-center">
+                  <input
+                    name="password"
+                    type="password"
+                    id="password"
+                    required
+                    class="w-full text-gray-900 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
+                    placeholder="Confirm password"
+                  />
+                </div>
+              </div>
+
+              <div class="flex flex-wrap items-center justify-between">
+                <div class="flex items-center">
+                  <input
+                    id="remember_me"
+                    name="remember_me"
+                    required
+                    type="checkbox"
+                    class="h-4 w-4 shrink-0 text-blue-600 focus:ring-blue-500 border-gray-300 rounded cursor-pointer"
+                  />
+                  <label
+                    for="remember_me"
+                    class="ml-3 block text-sm text-gray-900"
+                  >
+                    I accept the
+                    <a
+                      href="#"
+                      class="text-blue-600 hover:underline font-semibold"
+                    >
+                      Terms and Conditions
+                    </a>
+                  </label>
+                </div>
+              </div>
+
+              <div class="!mt-8">
+                <button
+                  type="submit"
+                  class="w-full py-3 px-4 text-sm tracking-wide rounded-lg text-white bg-blue-500 transition hover:bg-blue-600 focus:outline-none font-bold cursor-pointer"
+                >
+                  Create an account
+                </button>
+              </div>
+              <p class="text-gray-800 text-sm !mt-8 text-center">
+                Already have an account?
+                <a
+                  href="./login.html"
+                  class="text-blue-600 hover:underline ml-1 whitespace-nowrap font-bold"
+                  >Login here</a
+                >
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/f61b6efe47.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </body>
+</html>

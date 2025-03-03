@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body class="h-screen bg-gradient-to-t from-slate-200 to-slate-100">
+    <header>
+      <nav
+        class="top-0 fixed p-4 w-full h-20 flex bg-slate-100 flex-wrap justify-between z-50"
+      >
+        <div class="flex">
+          <a href="./index.html"><img src="https://fakeimg.pl/100x50/" /></a>
+        </div>
+        <ul class="font-bold justify-around items-center w-6/12 flex flex-wrap">
+          <li
+            class="text-gray-950 transition-colors duration-200 hover:text-blue-500"
+          >
+            <a href="#">Home</a>
+          </li>
+
+          <li class="text-gray-950">
+            <button
+              id="dropDownBtn_1"
+              data-dropdown-toggle="dropdownHover_1"
+              data-dropdown-trigger="hover"
+              class="gap-2 w-18 cursor-pointer flex justify-around items-center transition-colors duration-200 hover:text-blue-500"
+            >
+              Functions
+              <i class="fa-solid fa-angle-down"></i>
+            </button>
+          </li>
+
+          <li class="text-gray-950">
+            <button
+              id="dropDownBtn_2"
+              data-dropdown-toggle="dropdownHover_2"
+              data-dropdown-trigger="hover"
+              class="gap-2 w-18 cursor-pointer flex justify-around items-center transition-colors duration-200 hover:text-blue-500"
+            >
+              Solutions
+              <i class="fa-solid fa-angle-down"></i>
+            </button>
+          </li>
+
+          <li class="text-gray-950">
+            <button
+              id="dropDownBtn_3"
+              data-dropdown-toggle="dropdownHover_3"
+              data-dropdown-trigger="hover"
+              class="gap-2 w-18 cursor-pointer flex justify-around items-center transition-colors duration-200 hover:text-blue-500"
+            >
+              Resources
+              <i class="fa-solid fa-angle-down"></i>
+            </button>
+          </li>
+
+          <li class="text-gray-950">
+            <button
+              id="dropDownBtn_4"
+              data-dropdown-toggle="dropdownHover_4"
+              data-dropdown-trigger="hover"
+              class="w-18 cursor-pointer gap-2 flex justify-around items-center transition-colors duration-200 hover:text-blue-500"
+            >
+              Partners
+              <i class="fa-solid fa-angle-down"></i>
+            </button>
+          </li>
+        </ul>
+
+        <ul class="justify-end gap-12 w-72 mr-12 items-center flex flex-wrap">
+          <li>
+            <a class="font-bold" href="tel:+85212345678"
+              ><i class="text-blue-500 fa-solid fa-phone"></i> +852 1234 5678</a
+            >
+          </li>
+
+          <li
+            class="rounded-full w-20 h-full text-center flex justify-center items-center text-slate-100 bg-blue-500 font-bold hover:bg-blue-600 ease-in duration-200"
+          >
+            <a href="./login.html">Sign in</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div
+        id="dropdownHover_1"
+        class="hidden transition ease-in-out duration-300 bg-slate-100 drop-shadow-lg divide-y rounded-lg shadow-sm w-screen"
+      >
+        <ul
+          class="font-bold flex flex-wrap items-center justify-around px-38 py-18 text-sm text-gray-700"
+          aria-labelledby="dropDownBtn_1"
+        >
+          <div class="text-lg font-bold">
+            <p>
+              One-stop HR management system with powerful <br />
+              AI payroll engine, closely following the employment <br />
+              regulations to realize HRbr management easily.
+            </p>
+          </div>
+
+          <div class="text-gray-600 flex flex-wrap text-lg font-bold">
+            <div>
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Company Management</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Employee Onboarding</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Shift Management</a
+                >
+              </li>
+            </div>
+
+            <div>
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Attendance Management</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Vacation Management</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Reimbursement Management</a
+                >
+              </li>
+            </div>
+          </div>
+        </ul>
+      </div>
+
+      <div
+        id="dropdownHover_2"
+        class="hidden transition ease-in-out duration-200 bg-slate-100 drop-shadow-lg divide-y rounded-lg shadow-sm w-screen"
+      >
+        <ul
+          class="font-bold items-center flex flex-wrap justify-around px-38 py-18 text-sm text-gray-700"
+          aria-labelledby="dropDownBtn_2"
+        >
+          <div class="text-lg font-bold">
+            <p>
+              Birby provides digital HR management solutions <br />
+              for Hong Kong's catering, security and construction <br />
+              industries, streamlining HR management processes <br />
+              and reducing HR costs.
+            </p>
+          </div>
+
+          <div class="text-gray-600 flex flex-wrap text-lg font-bold">
+            <div>
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Security Industry</a
+                >
+              </li>
+            </div>
+          </div>
+        </ul>
+      </div>
+
+      <div
+        id="dropdownHover_3"
+        class="hidden transition ease-in-out duration-200 bg-slate-100 drop-shadow-lg divide-y rounded-lg shadow-sm w-screen"
+      >
+        <ul
+          class="font-bold items-center flex flex-wrap justify-around px-38 py-18 text-sm text-gray-700"
+          aria-labelledby="dropDownBtn_3"
+        >
+          <div class="text-lg font-bold">
+            <p>
+              Regularly share the latest & most practical <br />
+              HR management tips to solve the biggest <br />
+              pain points of HR work!
+            </p>
+          </div>
+
+          <div class="gap-5 flex flex-wrap text-lg">
+            <div>
+              <li>
+                <h3 class="text-3xl font-bold block px-4 py-2">Learning</h3>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Client Cases</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Events</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >HR Glossary
+                </a>
+              </li>
+            </div>
+
+            <div>
+              <li>
+                <h3 class="text-3xl font-bold block px-4 py-2">Company</h3>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >About Us</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Contact Us</a
+                >
+              </li>
+            </div>
+
+            <div>
+              <li>
+                <h3 class="text-3xl font-bold block px-4 py-2">Support</h3>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Help Center</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-600 block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Contact Us</a
+                >
+              </li>
+            </div>
+          </div>
+        </ul>
+      </div>
+
+      <div
+        id="dropdownHover_4"
+        class="hidden transition ease-in-out duration-300 bg-slate-100 drop-shadow-lg divide-y rounded-lg shadow-sm w-screen"
+      >
+        <ul
+          class="font-bold flex flex-wrap items-center justify-around px-38 py-18 text-sm text-gray-700"
+          aria-labelledby="dropDownBtn_4"
+        >
+          <div class="text-lg font-bold">
+            <p>
+              Birby creates a one-stop HR management solution <br />
+              to increase partner revenue and customer retention.
+            </p>
+          </div>
+
+          <div class="text-gray-600 flex flex-wrap text-lg font-bold">
+            <div>
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Join Us</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                >
+                  Partner Programs</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 transition-colors duration-200 hover:text-blue-500"
+                  >Partner Directory</a
+                >
+              </li>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </header>
+
+    <section>
+      <div class="mt-20 flex flex-wrap bg-slate-100 py-64 items-center">
+        <div class="min-w-full">
+          <h1 class="font-bold py-1 text-6xl text-center w-full text-gray-950">
+            Easily realize HR management. <br />
+            <span class="text-blue-600">Compliance Payroll</span>
+          </h1>
+          <article class="text-xl py-1 mt-5 text-gray-900 w-full text-center">
+            <p>
+              Simply adopt the cloud-based one-stop human resources management
+              system.
+            </p>
+          </article>
+          <div class="text-xl flex flex-wrap h-20 justify-center items-center">
+            <a
+              class="text-slate-100 p-2 mt-5 rounded-full font-bold bg-blue-500 p-4 hover:bg-blue-600 ease-in duration-200"
+              href="#"
+              >Get Started!</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="bg-slate-200">
+        <div class="p-30">
+          <div class="text-gray-950 font-bold text-4xl text-left">
+            <h2>
+              The rapid growth of the business <br />
+              Strong programming system <br />
+              support is required
+            </h2>
+          </div>
+
+          <div class="flex flex-wrap justify-left py-8">
+            <div
+              class="text-xl font-bold text-slate-100 rounded-full font-bold p-4 bg-blue-500 hover:bg-blue-600 ease-in duration-200"
+            >
+              <a href="#">Try it Now!</a>
+            </div>
+          </div>
+
+          <div class="justify-center flex flex-wrap items-center">
+            <div>
+              <img
+                class="rounded-3xl"
+                src="https://www.workstem.com/wp-content/themes/workstem/images/home-feature-1.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="bg-slate-100 py-16">
+        <div class="p-30">
+          <div class="text-right text-blue-600 font-bold text-5xl">
+            <h1>Contact Us</h1>
+          </div>
+          <article>
+            <p class="py-5 font-bold text-3xl text-gray-950 text-right">
+              Lorem, ipsum dolor sit amet consectetur <br />
+              adipisicing elit. Ad laboriosam, vero, <br />
+              porro ab nihil cumque voluptates qui minima.
+            </p>
+          </article>
+          <div class="flex flex-wrap h-20 justify-end">
+            <a
+              class="text-slate-100 text-xl p-2 mt-5 rounded-full font-bold bg-blue-500 p-4 hover:bg-blue-600 ease-in duration-200"
+              href="#"
+              >Contact Now!</a
+            >
+          </div>
+
+          <div class="mt-10 justify-left flex flex-wrap items-center">
+            <div>
+              <img
+                class="rounded-4xl"
+                src="https://img.freepik.com/free-photo/girl-having-online-class-her-tablet_23-2148597998.jpg?t=st=1740940116~exp=1740943716~hmac=d5976e43629275545e8dedf372a16821c916de5c461ec289203ef0d39524daf8&w=1380"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="bg-slate-200">
+        <div class="p-30">
+          <div class="text-blue-600 font-bold py-4 text-5xl text-center">
+            <h1>FAQ</h1>
+          </div>
+          <div class="p-6 text-gray-950 flex justify-center">
+            <div
+              class="font-bold rounded-2xl bg-slate-100 block w-full text-xl"
+            >
+              <details class="border-b border-cyan-600/30 py-2 text-center">
+                <summary class="cursor-pointer p-4">How to join?</summary>
+                <p class="p-5">sdfjlksjfdsafassdfasfafdadfsa</p>
+              </details>
+              <details class="py-2 text-center">
+                <summary class="cursor-pointer p-4">How to Use?</summary>
+                <p class="p-5">sdfjlksjfsdjkjfsdlk</p>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="p-10 bottom-0 bottom-0 bg-slate-100 text-blue-500">
+        <div class="flex flex-wrap justify-around w-full">
+          <div class="text-lg font-bold flex flex-wrap">
+            <ul>
+              <li class="py-1">
+                <a href="./marketplace.html">Functions</a>
+              </li>
+              <li class="py-1"><a href="./sell_photo.html">Solutions</a></li>
+              <li class="py-1"><a href="./contact.html">Contant Us</a></li>
+            </ul>
+          </div>
+          <div
+            class="flex flex-wrap items-center justify-center justify-around"
+          >
+            <div class="w-50 text-center text-3xl">
+              <a href="#">
+                <i class="px-2 fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="px-2 fa-brands fa-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="px-2 fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="text-sm text-center mt-15">
+          <p>&copy 2025 BIRBY INC, ALL RIGHTS RESERVED</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/f61b6efe47.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </body>
+</html>
