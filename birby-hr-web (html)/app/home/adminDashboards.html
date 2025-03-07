@@ -152,81 +152,130 @@
     <section>
       <div class="ml-60 px-10 relative right-0">
         <div class="pt-25 px-12">
-          <h1 class="text-2xl font-bold">Employee List</h1>
+          <h1 class="text-2xl font-bold">Admin Dashboards</h1>
         </div>
 
-        <div class="flex flex-wrap justify-between px-12 pt-10">
+        <div class="flex flex-wrap justify-center px-12 pt-10">
           <div
-            class="bg-slate-100 px-10 py-5 drop-shadow-lg rounded-md flex justify-between"
+            class="flex flex-wrap justify-left bg-slate-100 drop-shadow-lg w-full rounded-md"
           >
-            <div class="flex justify-center items-center p-5">
-              <i
-                class="bg-blue-500/80 px-4 py-5 rounded-full text-2xl fa-solid text-slate-100 fa-users-between-lines"
-              ></i>
-
-              <div class="px-2">
-                <h2 class="text-gray-950/80 font-bold text-sm">
-                  Total Employee
-                </h2>
-
-                <p class="font-bold text-gray-950 text-xl">1007</p>
+            <div
+              class="p-10 flex flex-wrap justify-between items-center w-full"
+            >
+              <div>
+                <h1 class="text-xl font-bold text-gray-950">Welcome back!</h1>
+                <p class="text-md text-gray-900/70">
+                  You have 21 Pending Approvals & 14 Leave Requests
+                </p>
               </div>
-            </div>
-          </div>
 
-          <div
-            class="bg-slate-100 px-10 py-5 drop-shadow-lg rounded-md flex justify-between"
-          >
-            <div class="flex justify-center items-center px-12 py-5">
-              <i
-                class="bg-green-500/80 text-slate-100 px-4 py-5 rounded-full text-2xl fa-solid fa-person-arrow-up-from-line"
-              ></i>
-
-              <div class="px-2">
-                <h2 class="text-gray-950/80 font-bold text-sm">Active</h2>
-
-                <p class="font-bold text-gray-950 text-xl">1007</p>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="bg-slate-100 px-10 py-5 drop-shadow-lg rounded-md flex justify-between"
-          >
-            <div class="flex justify-center items-center px-11 py-5">
-              <i
-                class="bg-red-500/80 px-4 py-5 rounded-full text-2xl fa-solid text-slate-100 fa-solid fa-person-arrow-down-to-line"
-              ></i>
-
-              <div class="px-2">
-                <h2 class="text-gray-950/80 font-bold text-sm">InActive</h2>
-
-                <p class="font-bold text-gray-950 text-xl">1007</p>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="bg-slate-100 px-10 py-5 drop-shadow-lg rounded-md flex justify-between"
-          >
-            <div class="flex justify-center items-center py-5 px-9">
-              <i
-                class="bg-yellow-500/80 px-4 py-5 rounded-full text-2xl fa-solid text-slate-100 fa-solid fa-user-plus"
-              ></i>
-
-              <div class="px-2">
-                <h2 class="text-gray-950/80 font-bold text-sm">New Joiners</h2>
-
-                <p class="font-bold text-gray-950 text-xl">1007</p>
+              <div
+                class="bg-blue-600 rounded-full py-3 px-4 transition-colors duration-200 hover:bg-blue-700"
+              >
+                <i class="text-slate-100 fa-solid fa-plus"></i>
+                <a class="font-bold text-slate-100" href="#">Add Requests</a>
               </div>
             </div>
           </div>
         </div>
 
         <div class="pt-8 px-12 flex flex-wrap justify-between">
+          <div>
+            <div class="gap-5 flex flex-wrap justify-between">
+              <div class="rounded-md bg-slate-100 drop-shadow-lg text-left">
+                <div class="pl-5 pr-32 pt-5 pb-4">
+                  <i
+                    class="bg-orange-500/60 px-5 py-4 rounded-full text-3xl text-slate-100 fa-solid fa-clipboard-user"
+                  ></i>
+
+                  <h3 class="font-bold text-xl text-gray-800/80 pt-2">
+                    Attendance
+                  </h3>
+                  <h2 class="text-3xl text-gray-900 font-bold">92/99</h2>
+                  <div class="pt-16">
+                    <a
+                      href="#"
+                      class="font-bold text-blue-600/80 transition-colors duration-200 hover:text-blue-800"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="rounded-md bg-slate-100 drop-shadow-lg text-left">
+                <div class="pl-5 pr-37 pt-5 pb-4">
+                  <i
+                    class="bg-green-500/60 px-4 py-4 rounded-full text-3xl text-slate-100 fa-solid fa-list-check"
+                  ></i>
+
+                  <h3 class="font-bold text-xl text-gray-800/80 pt-2">
+                    Total Tasks
+                  </h3>
+                  <h2 class="text-3xl text-gray-900 font-bold">24/30</h2>
+                  <div class="pt-16">
+                    <a
+                      href="#"
+                      class="font-bold text-blue-600/80 transition-colors duration-200 hover:text-blue-800"
+                      >View All</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gap-5 flex flex-wrap justify-between pt-5">
+              <div class="rounded-md bg-slate-100 drop-shadow-lg text-left">
+                <div class="pl-5 pr-33 pt-5 pb-4">
+                  <i
+                    class="bg-blue-500/60 px-3 py-4 rounded-full text-3xl text-slate-100 fa-solid fa-users"
+                  ></i>
+
+                  <h3 class="font-bold text-xl text-gray-800/80 pt-2">
+                    Candidates
+                  </h3>
+                  <h2 class="text-3xl text-gray-900 font-bold">30</h2>
+                  <div class="pt-16">
+                    <a
+                      href="#"
+                      class="font-bold text-blue-600/80 transition-colors duration-200 hover:text-blue-800"
+                      >View All</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="rounded-md bg-slate-100 drop-shadow-lg text-left">
+                <div class="pl-5 pr-40 pt-5 pb-4">
+                  <i
+                    class="bg-cyan-500/60 px-3 py-4 rounded-full text-3xl text-slate-100 fa-solid fa-user-plus"
+                  ></i>
+
+                  <h3 class="font-bold text-xl text-gray-800/80 pt-2">
+                    New Hire
+                  </h3>
+                  <h2 class="text-3xl text-gray-900 font-bold">45/48</h2>
+                  <div class="pt-16">
+                    <a
+                      href="#"
+                      class="font-bold text-blue-600/80 transition-colors duration-200 hover:text-blue-800"
+                      >View All</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div
-            class="w-screen h-screen bg-slate-100 drop-shadow-lg rounded-md"
-          ></div>
+            class="relative bg-slate-100 drop-shadow-lg rounded-md flex flex-col justify-center"
+          >
+            <div class="absolute top-5 left-5">
+              <h2 class="font-bold text-xl">Employees By Department</h2>
+            </div>
+
+            <div class="w-full h-90 px-5">
+              <canvas id="barChart" class="h-full"></canvas>
+            </div>
+          </div>
         </div>
       </div>
     </section>

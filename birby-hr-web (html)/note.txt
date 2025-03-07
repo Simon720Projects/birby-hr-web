@@ -2,3 +2,13 @@
 通勤表
 編更表
 員工管理  (搜尋新增刪除)
+
+
+dashboard:
+<div class="absolute top-5 left-5">
+              <h2 class="font-bold text-xl">Employees By Department</h2>
+            </div>
+
+            <div class="w-full h-96">
+              <canvas id="barChart" class="w-full h-full"></canvas>
+</div>
